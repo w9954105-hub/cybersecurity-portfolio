@@ -1,0 +1,15 @@
+# Day 2: Windows Event Viewer basics
+
+## What I learned
+- Today I started learning the basics of Windows Event Viewer
+- Event Viever shows logs: what happened on the computer and when
+- Every event has an Event ID (for example 4798)
+
+## What I did
+- Opened Event Viewer and looked at the Security log
+- Found Event ID 4798 many times
+- The source was MBAMService.exe (Malwarebytes), so it looked normal
+
+## What I don't understand yet
+- How to find the important events among so many logs
+On Day 2, l studied the SOC L1 training using Claude AI.Date: October 21, 2026.
