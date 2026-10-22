@@ -1,0 +1,20 @@
+# Day 3: Filtering Event IDs
+- 4624 = successful logon, 4625 = failed logon
+- 4688 = new process, 4672 = admin logon, 1102 = log cleared 
+- I can filter the Security log by Event ID to find what matters
+-
+## My answer to the test question
+Question: 20 failed logins (4625) followed by a succes (4624). What does it mean?
+- My first thought: the user forgot the password and then remembered it 
+- My second tought: could someone find a password in only 20 tries?
+- Then I learned : it is possible with a weak password, so I cannot decide from the Event IDs alone 
+
+## How I would decide
+- Speed: 20 tries in 1 minute = automated tool, over several hours = probably human
+- Source IP: internal or unknown external?
+- Time: working hours or 3 AM?
+- Logon Type: 2 = keyboard (normal), 3 = network or 10 = remote (more suspicious)
+- Verdict: Internal IP + working hours + slow = likely false positive; external IP + fast + night = true positive, escalate to L2
+
+## What I did
+- I filtered for 4624/4625 in Event Viever; I triggered a 4625 event on my own PC by entering an incorrect password.Day 3, October 22, 2026
