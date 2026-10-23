@@ -1,0 +1,11 @@
+# Day 4: Wireshark basics
+- What I learned
+- Wireshark shows network packets: who sent, who received, which port
+- Useful filters: dns, ip.addr == X, tcp.port == 443
+
+## What I did
+- Installed Wireshark
+- Captured my own traffic while opening websites
+- Used the dns filter and found the domains I visited
+
+# On the day, I completed the SOC L1 training with the help of Claude AI. October 23,2026
