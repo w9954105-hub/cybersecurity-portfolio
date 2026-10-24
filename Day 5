@@ -1,0 +1,12 @@
+# Day 5: Linux logs
+## What I Learned
+- Linux logs  can be read with journalctl (or /var/log/auth.log)
+- "password check failed" = failed login, "session opened for user root" = succesful sudo
+- Same logic as Windows: failed logins (4625), then succes (4624)
+
+## What I did
+- Typed a wrong sudo password 3 times on my own Kali machine
+- Read the logs with journalctl and found 3 "password check failed" lines and the "3 incorrect password attemps" line
+- Found the succesful sudo session after I used the correct password
+- Saw CRON entries and recognized them as normal system activity
+- I prepared today's lesson with the help of Claude AI. October 24,2026
