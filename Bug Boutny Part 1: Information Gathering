@@ -1,0 +1,16 @@
+# Bug bounty Part 1: Information Gathering
+Platform: Bugcrowd
+Target: web application (program name not shared)
+Scope: in-scope assets only, program rules followed
+
+## What I did (passive OSINT)
+- Google dorks to find indexed pages and publik files of the target
+- Wayback Machine to check old versions of pages and old endpoints
+- BuiltWith to identify the technologies used (CMS, framework, analytics)
+- Netcraft to check hosting information and site history
+
+## Today, I worked with these four tools using the assistance of Gemini AI.
+- I asked the AI for commands on how to operate-using placeholders like "example.com" to avoid revealing the actual company name-and then manually entered and tested those commands myself.
+- At the beginning and end of the session, I performed full system scans using ESET, Malwarebytes, Bitdefender Antivirus, and Windows Defender.
+- Finally, I completely cleared my brouser and terminal history, deleted any company-related files from the computer, and shut the machine down. 
+- Today, I used my real IP address on the computer where I accessed Gemini AI, while using a VPN on the computer I use for bug bounty work.
