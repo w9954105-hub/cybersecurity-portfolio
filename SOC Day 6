@@ -1,0 +1,15 @@
+# Day 6: Common attack types
+
+## What I learned
+- Brute force: many failed logins (T1110)
+- Phishing: fake email or site to steal data (T1566)
+- Malware: harmful program, may show as an unknown process (4688)
+- Lateral movement: attacker moves between computers (T1021)
+
+## My answer to the test question
+- 10 succesful logins to different computers at 3 AM = lateral movement
+- L1 checks account type, time, logon type and source IP, then escalates to L2 with evidence
+
+## What I did
+- Real MITRE ATT&CK pages for T1110, T1566, T1204, T1021
+- Matched my own lab alerts (Day 3 and Day 5) to 1110
