@@ -1,6 +1,0 @@
-For bug bounty programs on the Bugcrowd platform, I utilized tools such as theHarvester, Amass, Subfinder, and Assetfinder, strictly adhering to the established rules.
-I conducted this work using two separate computers: on Computer A, I operated using a real IP addres with the assistance of Gemini AI, while on Computer B, I worked on Bugcrowd bug bounty programs using a VPN IP address.
-Before beginning and after finishing the tasks, I performed full system  scans using Malwarebytes, Windows Defender, Bitdefender, and ESET antivirus softfare; only after confirming that there were no issues did I proceed with the bug bounty work.
-Upon completion, I thoroughly cleared all terminal and browser history, deleted any files realted to the company from my computer, and destroyed all handwritten notes. I emplayed these tools solely for passive scanning.
-To ensure the company's security, I do not retain any data related to the organization after my work is finished, and I then shut down the computer.
-When working with the help of Gemini AI, it would provide commands that I would then type out manually and test; instead of the actual company name, I would use "example.com" I never provide a company's URL to any AI.October 23, 2026
