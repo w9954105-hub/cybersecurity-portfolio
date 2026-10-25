@@ -5,7 +5,7 @@ Target: web application (program name not shared)
 Scope: in-scope assets only, program rules followed
 
 ## What I did (passive OSINT)
-- Google dorks to find indexed pages and publik files of the target
+- Google dorks to find indexed pages and public files of the target
 - Wayback Machine to check old versions of pages and old endpoints
 - BuiltWith to identify the technologies used (CMS, framework, analytics)
 - Netcraft to check hosting information and site history
@@ -24,16 +24,18 @@ Target: web application (program name not shared)
 Scope: in-scope assets only, program rules followed
 
 ## What I did (reconnaissance)
-- Wappalyzer: indentified the technologies used by the site
+- Wappalyzer: identified the technologies used by the site
 - Whois: checked domain registration information
 - Assetfinder: looked for subdomains
-- Shodan: checked publik information abount the hosts
+- Shodan: checked public information about the hosts
 - SpiderFoot (passive use case): automated OSINT collection from public sources
 - CVE Lite CLI: looked up known vulnerabilites (CVE) for the technologies I found
 
 ## What I learned
 - No vulnerable version found, so I will check other areas next time (login, API, forms)
-- Today, before sterting work, I performed a full scan of the computer using ESET, Malwarebytes, Bitdefender, and Windows Defender; once I was absolutely certain that everything was in order, I began my tasks.
+
+## Setup and data handling
+- Today, before starting work, I performed a full scan of the computer using ESET, Malwarebytes, Bitdefender, and Windows Defender; once I was absolutely certain that everything was in order, I began my tasks.
 - On computer A, using a real IP address and the assistance of Gemini AI-which guided me through the steps while I executes them (I did not disclose the company name to the AI; for instance, we worked as if it were 'example.com')-I conducted bug bounty tests.
 - On computer B, I carried out bug bounty testing while using a VPN.
 - Upon finishing the work, I deleted all files, terminal logs, and browser history related to the company, and then shut down the computer.
