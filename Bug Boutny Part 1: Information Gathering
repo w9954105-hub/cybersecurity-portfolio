@@ -41,4 +41,20 @@ Scope: in-scope assets only, program rules followed
 - Upon finishing the work, I deleted all files, terminal logs, and browser history related to the company, and then shut down the computer.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-10-26
+Platform: Bugcrowd
+Target: web application (program name not shared)
+Scope: in-scope assets only, program rules followed
+
+## What I did (secret scanning & responsible disclosure)
+- Gitleaks: scanned target repositories for hardcoded secrets and API keys
+- TruffleHog: performed high-entropy analysis to detect exposed credentials and tokens
+- Verification: confirmed valid exposed secrets within authorized program scope
+- Reporting: submitted official report to Bugcrowd following Responsible Disclosure policy
+- Data Hygiene: performed complete post-investigation cleanup (cleared terminal history, browser caches, and local artifacts)
+
+I carried out this work using these tools with the help of Gemini AI;it provided the steps, and I followed them.
+I used "example.com" as a placeholder for the company name when querying Gemini AI.
+I worked on the com computer running Gemini AI using my real IP address, while for the bug bounty tasks, I used a VPN.
+Today, too, I performed a full scan of the computer using ESET, Bitdefender Antivirus, Malwarebytes, and Windows Defender before starting work.
 
