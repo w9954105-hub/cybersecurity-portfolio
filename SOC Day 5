@@ -9,5 +9,5 @@
 - Read the logs with journalctl and found 3 "password check failed" lines and the "3 incorrect password attemps" line
 - Found the succesful sudo session after I used the correct password
 - Saw CRON entries and recognized them as normal system activity
-- I prepared today's lesson with the help of Claude AI. October 24,2026
+- I prepared today's lesson with the help of Claude AI.
 Timeline: 2026-10-24
