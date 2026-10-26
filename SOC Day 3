@@ -17,4 +17,5 @@ Question: 20 failed logins (4625) followed by a succes (4624). What does it mean
 - Verdict: Internal IP + working hours + slow = likely false positive; external IP + fast + night = true positive, escalate to L2
 
 ## What I did
-- I filtered for 4624/4625 in Event Viever; I triggered a 4625 event on my own PC by entering an incorrect password.Day 3, October 22, 2026
+- I filtered for 4624/4625 in Event Viever; I triggered a 4625 event on my own PC by entering an incorrect password.
+Timeline: 2026-10-22
