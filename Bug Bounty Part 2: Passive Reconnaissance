@@ -1,5 +1,14 @@
 # Bug Bounty Part 2: Passive Reconnaissance
 2026-10-27
 Platform: Bugcrowd
-Target:
-Scope:
+Target: Web Application (program name not shared)
+Scope: In-scope assets only, program rules followed
+
+## What I did (reconnaissance) & OSINT)
+- Google Dorks: performed targeted search operator queries to discover exposed sensitive files, endpoints, and subdomains.
+- Wayback Machine: extracted historical URL archives and endpoint parameters for legacy asset analysis.
+
+## What I learned
+- Google Dorking effectively surfaces forgotten public assets and indexed sensitive directories without direct host traffic.
+- Historical snapshot analysis via Waybach machine helps map old endpoints and parameters that may still remain vulnerable.
+
