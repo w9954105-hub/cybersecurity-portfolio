@@ -1,0 +1,11 @@
+# Day 8: Wazuh basics
+
+## What I learned
+- SIEM collects security logs from agents and generates structured alerts.
+- Wazuh architecture consists of 3 core components: Agent, Server (Manager), and Dashboard.
+- Alert severity levels range from 0 to 15 (lower levels indicate informational events, 12+ indicate critical security threats).
+- Navigated threat hunting fields: rule.description, rule.level, agent.name, and timestamp.
+
+## What I did
+- Reviewed Wazuh SIEM deployment workflow and WM agent registration steps.
+- Analyzed alert level classification and dashboard log visualization technigues.
