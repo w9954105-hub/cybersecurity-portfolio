@@ -12,3 +12,13 @@ Scope: In-scope assets only, program rules followed
 - Google Dorking effectively surfaces forgotten public assets and indexed sensitive directories without direct host traffic.
 - Historical snapshot analysis via Waybach machine helps map old endpoints and parameters that may still remain vulnerable.
 
+## Before starting the work, I performed a full scan of the computer using ESET, Malwarebytes, Bitdefender, and Windows Defender, and then completely cleared all history from the terminal and browser before shutting the machine down.
+- I carried out today's tasks with the assistance of the ChatGPT AI; when requesting help, I used a placeholder like "example.com" instead of the company's actual domain name.
+- I conducted manual testing-using my real IP address on the machine where I accessed ChatGPT, and using a VPN on the machine dedicated to bug bounty activies.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-10-28
+Platform: Bugcrowd
+Target: 
+Scope:
