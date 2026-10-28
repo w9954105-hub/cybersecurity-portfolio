@@ -1,0 +1,11 @@
+# Day 9: Wazuh rules and levels
+
+## What I learned
+- A rule creates an alert when a log matches it
+- A decoder splits the log into fields (usr, IP, time)
+- Levels go from 0 to 15, higher means more serios
+
+## What I did
+- Typed a wrong password on my own Wazuh VM
+- Found the alert in the dashboard 
+- Read rule.id, rule.description and rule.level
