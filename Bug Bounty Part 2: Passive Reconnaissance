@@ -20,5 +20,23 @@ Scope: In-scope assets only, program rules followed
 
 2026-10-28
 Platform: Bugcrowd
-Target: 
-Scope:
+Target: Web Application (proqram name not shared)
+Scope: In-scope assets only, program rules followed
+
+## What I did (passive reconnaissance & OSINT)
+- Shodan & Censys: scanned target IP ranger and certificates for open ports, exposed services, and web infrastructure
+- Hunter.io: gathered publicly exposed corporate email structures and organization domain patterns
+- GitHub: performed manual search queries for accidentally leaked source code, configuration files, and internal endpoints
+- LinkedIn: analyzed publik employee profiles to map out technology stack and internal software environment
+
+## What I did learned
+- Combining Shodan and Censys provides comprehensive coverage for exposed web infrastructure without sending direct traffic to the target.
+- Hunter.io and LinkedIn help reconstruct the organization's technical footprint and domain structure via OSINT.
+- GitHub manual recon is essential for detecting developer-side information leakage andsensitive asset referances
+
+## Today, I began my work after performing a full system scan using ESET, Bitdefender, Malwarebytes, and Windows Defender.
+- Upon finishing, I cleared the terminal history and browser history.
+- I conducted manual testing with the assistance of the ChatGPT AI,using "example.com" as a placeholder for the  company name.
+- I accessed ChatGPT from a computer using my real IP address, while I used a VPN on the computer dedicated to my bug bounty work.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
