@@ -1,0 +1,11 @@
+# Day 10: Log search and filtering in Wazuh
+
+## What I learned
+- Search format is field: value (e.g. rule.level >= 7)
+- Useful fields: rule.level, rule.id, rule.group, agent.name
+- Filters help me find important alerts among many
+
+## What I did
+- Searched alerts by level and by group
+- Added a filter by agent name
+- Created a failed login and found it with my search
