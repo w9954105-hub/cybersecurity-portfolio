@@ -1,0 +1,11 @@
+# Day 11: Correlation and False/True Positive
+
+## What I learned
+- Correlation: looking at several alerts together
+- False Positive: alert without real danger; True Positive: real threat
+- I decide by time, source IP, speed/count and account type
+
+## What I did
+- Created failed logins and then a succesfull login on my own vm
+- Read the alerts in time order
+- Classified 3 alerts as FP or TP with a reason
