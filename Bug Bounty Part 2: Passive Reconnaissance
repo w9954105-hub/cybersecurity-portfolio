@@ -59,4 +59,23 @@ Scope: In-scope assets only, program rules followed
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+2026-10-30
+Platform: Bugcrowd
+Target: Web Application (program name not shared)
+Scope: In-scope assets only, program rules followed
+
+## What I did
+- CeWL: Scraping target websites to gather domain-specific keywords for wordlists
+- Target context: Extracting words from target sites on Bugcrowd
+## What I did
+- Ran the CeWL tool against a target on Bugcrowd
+- Generated a wordlist from the target website
+
+# Today, I began my work after performing a full system scan using ESET, Bitdefender, Malwarebytes, and Windows Defender.
+- Upon finishing, I cleared the terminal history and browser history.
+- I conducted manual testing with the assistance of the ChatGPT AI, using "example.com" as a placeholder for company name.
+- I accessed ChatGPT from a computer using my real IP address, while I used a VPN on the computer dedicated to my bug bounty work.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 
