@@ -1,0 +1,10 @@
+# Day 12: Port scan simulation
+
+## What I learned
+- Port scan checks which ports are open, often the first recon step (T1046)
+- In logs it looks like many short connection attempts from one source to different ports
+
+## What I did
+- Ran nmap -sS from my Kali VM against my Wazuh agent VM
+- Checked Wazuh for an alert with the source IP
+
