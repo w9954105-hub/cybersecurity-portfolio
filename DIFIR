@@ -1,3 +1,4 @@
+Day 1
 Topic: SHA-256 Hash Analysis
 
 Command: sha256sum /etc/hosts
