@@ -18,4 +18,5 @@ Question: 20 failed logins (4625) followed by a succes (4624). What does it mean
 
 ## What I did
 - I filtered for 4624/4625 in Event Viever; I triggered a 4625 event on my own PC by entering an incorrect password.
+- I worked using Claude AI
 Timeline: 2026-10-22
