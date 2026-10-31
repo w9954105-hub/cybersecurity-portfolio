@@ -1,0 +1,15 @@
+Topic: SHA-256 Hash Analysis
+
+Command: sha256sum /etc/hosts
+
+What I learned
+
+Generating SHA-256 hashes.
+Understanding digital file fingerprints.
+Using hashes to verify file integrity.
+
+Tool: Linux Terminal
+
+Status: Completed
+Timeline: 2026-10-31
+I worked with the help of ChatGPT.
