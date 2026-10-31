@@ -7,4 +7,5 @@
 ## What I did
 - Ran nmap -sS from my Kali VM against my Wazuh agent VM
 - Checked Wazuh for an alert with the source IP
-
+- I worked with the help of Claude AI
+Timeline: 2026-10-31
