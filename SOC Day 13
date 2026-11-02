@@ -1,0 +1,10 @@
+# Day 13: Phishing analysis basics
+
+## What I learned
+- Check sender address, link destination, grammer, attachments
+- SPF/DKIM/DMARK show if the email passed authentication checks
+
+## What I did
+- Reviewed sample phishing emails on Phistank
+- Checked the 5 warnings
+Timeline: 2026-11-02
