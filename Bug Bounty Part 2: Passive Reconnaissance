@@ -80,7 +80,7 @@ Scope: In-scope assets only, program rules followed
 
 2026-10-31
 Platform: Bugcrowd
-Target: Web application ( program name not shared)
+Target: Web application (program name not shared)
 Scope: In-scope assets only, program rules followed
 
 ## What I did
@@ -96,4 +96,22 @@ Scope: In-scope assets only, program rules followed
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
+2026-11-02
+Platform: Bugcrowd
+Target: Web Application (program name not shared)
+Scope: In-Scope assets only, program rules followed
 
+## What I did
+- Used GAU (GetAllUrls) for passive reconnaissance and attack surface mapping
+- Queried historical archives (Wayback, OTX, CommonCrawl, URLSan) without alerting live servers
+- Filtered harvested URLs to identify hidden parameters, legacy API routes, and exposed endpoints
+
+## What I did
+- Ran GAU pipeline against targets: 'gau example.com --threads 5 | httpx -mc 200,302 -o live_urls.txt'
+- Extracted potential XSS/SSRF targets: 'gau example.com | gf xss | uro > potential_xss.txt'
+- Analyzed status codes and legacy endpoints for access control bypas checked
+
+# Today, I began my work after performing a full system scan using ESET, Bitdefender, Malwarebytes, and Windows Defender
+- Upon finishing, I cleared the terminal history and browser history
+- I conducted manual testing with the assistance of the ChatGPT AI, using "example.com' as a placeholder for company name
+- I accessed ChatGPT from a computer using my real IP address, while I used a VPN on the computer to my bug bounty work
