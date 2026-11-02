@@ -12,3 +12,15 @@ Key concept: Authentication = Authorization.
 Status: Completed
 Timeline: 2026-10-31
 I worked with the help of ChatGPT
+------------------------------------------------------------
+Day 2
+Topic: Secure Password Storage
+
+Passwords should not be stored in plaintext
+Argon2id and bcrypt are password-hashing algorithms
+Password hashing helps protect stored credentials
+
+Status: Learning in progress
+Timeline: 2026-11-02
+I worked with the help of ChatGPT
+------------------------------------------------------------------
