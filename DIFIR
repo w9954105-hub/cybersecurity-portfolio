@@ -14,3 +14,14 @@ Tool: Linux Terminal
 Status: Completed
 Timeline: 2026-10-31
 I worked with the help of ChatGPT.
+-----------------------------------------------------
+Day 2
+Topic: SHA256 Comparison
+Command: sha256 /etc/hosts
+Learned how to calculate a file's SHA256 hash
+Reviewed how hashes can help identify file changes
+
+Status: Learning in progress
+I worked with the help of ChatGPT.
+Timeline: 2026-11-02
+---------------------------------------------------------------
