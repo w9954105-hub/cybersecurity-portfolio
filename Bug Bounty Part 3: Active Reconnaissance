@@ -1,1 +1,26 @@
+Bug Bounty Part 3: Active Reconnaissance
+
+# For any tool that requires a "bug bounty" user agent, I configure it accordingly before testing. 
+- Before starting any work,I perform a full system scsn using ESET, Bitdefender,Malwarebytes, and Windows Defender.
+- Once the work is complete, I clear my terminal history and browser history.
+- For the "active reconnaistance" phase, I utilize Claude AI; however, I do not share any specific company details with it-I simply use generic placeholders like "example.com".
+- I use my real IP address on the computer where  I access ClaudeAI, while I use a VPN on the computer dedicated to bug bounty work.
+- I never share company data anywhere, and I do not disclose which companies I am working with to anyone.
+
 2026-11-02
+Platform: Bugcrowd
+Target: Web Application (program name not shared)
+Scope: In-scope assets only, program rules followed
+
+## Active Reconnaissance & Attack Surface Mapping
+- Conducted direct target enuniration through active port scanning and live service detection
+- Performed service version fingerprinting to identify outdated or misconfigured software
+- Discovered hidden directories, backup artifacts, and undocumented API endpoints using fuzzing technigues
+
+## What I did
+- Conducted fast open port discovery using Naabu and performed detailed service version detection with Nmap
+- Validated live web applications and analyzed response headers using Httpx
+- Discovered hidden directories and unindexed endpoints through targeted content fuzzing with ffuf
+
+## Key Takeaways
+- Execudet controlled active reconnaissance while strictly adhering to scope rules and managing request rates to ensure server stability
