@@ -36,7 +36,7 @@ Scope: In-scope assets only, program rules followed
 
 ## Active Reconnaissance & Subdomain Enumiration 
 - Conducted DNS enumeration and footprinting using Dnsenum and Amass to reveal target infrastructure details
-- Applied Gobuster and Dirb for directory and file brute-forcing across identified web hosts
+- Applied Gobuster and Dirb for wordlist-based content and directory discovery and across identified web hosts
 - Performed takeover vulnerability checks on unregistered subdomains using Subjack
 
 ## What I did
