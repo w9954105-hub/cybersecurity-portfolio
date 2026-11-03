@@ -1,0 +1,10 @@
+Day 14: Link and file analysis
+
+## What I learned
+- URLScan.io opens a link safely and shows where it leads
+- VirusTotal checks a link or file against many antivirus engines
+
+## What I did
+- Scanned a known safe site with URLScan and VirusTotal
+- I worked using Claude AI
+Timeline: 2026-11-03
