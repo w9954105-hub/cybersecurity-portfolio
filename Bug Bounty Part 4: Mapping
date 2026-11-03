@@ -1,1 +1,13 @@
+Bug Bounty Part 4: Mapping
 
+# For any tool that requires a "bug bounty" user agent, I configure it accordingly before testing.
+- Before starting any work, I perform a full system scan using ESET, Bitdefender, Malwarebytes, and Windows Defender.
+- Once the work is complete, I clear my terminal history and browser history.
+- For the "Mapping" phase, I utilize Claude AI, however, I do not share any specific company details with it-I simply use generic placeholders like "example.com"
+- I use my real IP address on the computer where I access Claude AI, while I use a VPN on the computer dedicated to bug bounty works.
+- I never share company data anywhere, and I do not  disclose wich companies I am working with to anyone.
+
+2026-11-04
+Platform: Bugcrowd
+Target: Web Application(program name not shared)
+Scope: In-Scope assets only, program rules followed
