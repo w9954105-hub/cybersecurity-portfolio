@@ -25,13 +25,13 @@ Status: Learning in progress
 I worked with the help of ChatGPT.
 Timeline: 2026-11-02
 ---------------------------------------------------------------
+Day 3
 Topic: File Metadata Analysis
-
 Command: stat /etc/hosts
-
 Examined file metadata
 Learned about file permissions, size and timestamps
 Practiced basic forensic inspection
+
 Status: Learning
 I worked with the help of ChatGPT
 Timeline: 2026-11-03
