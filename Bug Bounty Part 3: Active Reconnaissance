@@ -26,3 +26,23 @@ Scope: In-scope assets only, program rules followed
 - Execudet controlled active reconnaissance while strictly adhering to scope rules and managing request rates to ensure server stability
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-11-03
+Platform: Bugcrowd
+Target: Web Application (program name not shared)
+Scope: In-scope assets only, program rules followed
+
+# Tools: Gobuster, dnsenum, Subjack, Amass, dirb
+
+## Active Reconnaissance & Subdomain Enumiration 
+- Conducted DNS enumeration and footprinting using Dnsenum and Amass to reveal target infrastructure details
+- Applied Gobuster and Dirb for directory and file brute-forcing across identified web hosts
+- Performed takeover vulnerability checks on unregistered subdomains using Subjack
+
+## What I did
+- Enumerated DNS records, zone transfers, and subdomains using Dnsenum and Amass
+- Executed high-speed web content discovery and directory fuzzing with Gobuster and Dirb
+- Analyzed subdomains for potential subdomain takeover risks using Subjack within defined scope boundaries
+
+## Key Takeaways
+- Expanded the attack surface safely by combining DNS enumeration with web directory fuzzing while managing request frequency to avoid disrupting target operations.
