@@ -11,3 +11,23 @@ Bug Bounty Part 4: Mapping
 Platform: Bugcrowd
 Target: Web Application(program name not shared)
 Scope: In-Scope assets only, program rules followed
+
+## Web Application Mapping & Traffic Analysis
+- Performed automated security scannig and vulnerability assessment using AWVS within authorized parameters
+- Intercepted, inspected, and analyzed web traffic flow using Burp Suite
+- Mirrored target web assets for offline structural analysis using HTTrack
+- Extracted hidden endpoints and JS links using LinkFinder
+- Discovered hidden parameters and imput vectors using Param Miner
+
+## What I did
+- Configured AWVS to scan authorized endpoints for common web  application vulnerabilites
+- Monitor HTTP/HTTPS requests and response traffic using Burp Suite proxy
+- Created offline copies of target web pages via HTTrack for thorough structural review
+- Analyzed JavaScript files with LinkFinder to uncover hidden paths and API endpoints
+- Tested for ummapped imput parameters using Param Miner to expand the assessment surface
+
+## Key Takeaways
+- Mapped application logic and analyzed traffic patterns comprehensively while maintaining strict adherence to program scope and rate limits.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
