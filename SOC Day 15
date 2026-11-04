@@ -1,0 +1,9 @@
+# Day 15: Malware basics
+
+## What I learned
+- Malware types: virus, trojan, ransomware, spyware
+- A hash is a file's fingerprint. used to check it on Virustotal without uploading it
+- Event ID 4688 shows new processes, useful to spot unknown programs
+
+## What I did
+- Got the SHA256 hash of a system file and checked it on VirusTotal
