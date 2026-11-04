@@ -36,3 +36,16 @@ Status: Learning
 I worked with the help of ChatGPT
 Timeline: 2026-11-03
 ---------------------------------------------------------------------
+Day 4
+Topic: File Metadata Investigation
+
+Command: stat /etc/passwd
+
+Examined file permissions
+Reviewed modification timestamps
+Practiced basic forensic inspection
+
+Status: Learning
+I worked with the help of ChatGPT
+Timeline: 2026-11-04
+---------------------------------------------
