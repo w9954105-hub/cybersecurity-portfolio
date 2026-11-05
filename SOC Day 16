@@ -1,0 +1,11 @@
+# Day 16: MITRE ATT&CK and Cyber Kill Chain
+
+## What I learned
+- MITRE ATT&CK catalogs attacker techniques with codes (e. g. T1110 = Brute Force)
+- Cyber Kill Chain: recon, weaponization, delivery, exploitation, installation, C2, actions on objectives
+
+## What I did
+- Revieved MITRE ATT&CK tactics
+- Mapped my own lab alerts (brute force, port scan) to kill chain stages
+- I worked using Claude AI
+Timeline: 2026-11-05
