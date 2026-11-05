@@ -9,7 +9,7 @@ Bug Bounty Part 4: Mapping
 
 2026-11-04
 Platform: Bugcrowd
-Target: Web Application(program name not shared)
+Target: Web Application (program name not shared)
 Scope: In-Scope assets only, program rules followed
 
 ## Web Application Mapping & Traffic Analysis
@@ -30,4 +30,23 @@ Scope: In-Scope assets only, program rules followed
 - Mapped application logic and analyzed traffic patterns comprehensively while maintaining strict adherence to program scope and rate limits.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-11-05
+Platform: Bugcrowd
+Target: Web Application (program name not shared)
+Scope: In-Scope assets only, program rules followed
+
+## Endpoint Mapping & Vulnerability Analysis
+- Analyzed site architecture and mapped application endpoints using sitemap resources
+- Evaluated potential XSS parameters safely using Dalfox within authorization bonds
+
+## What I did
+- Parsed XML sitemap data to build a clean index of target pages and endpoints
+- Utilized Dalfox to scan mapped parameters for Cross-Site Scripting (XSS) vulnerabilites safely and efficiently
+- Verified input reflection and sanitization controls on authorized web targets
+
+## Key Takeaways
+- Combined target sitemap mapping with structured parameter assessment to systematically analyze potential XSS vectors while adhering to rate limits
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
